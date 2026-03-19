@@ -19,6 +19,8 @@ sorted_user_word = sorted(user_word)
 # Loop through word list
 for word in word_list:
   # Compare sorted words
-  if sorted(word) == sorted_user_word and word != user_word:
+  if sorted(word) == sorted(user_word) and word != user_word:
     anagrams.append(word)
 
+# Point all anagrams with a # of anagrams
+print()
