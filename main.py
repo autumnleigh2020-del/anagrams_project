@@ -12,8 +12,6 @@ anagrams = []
 
 # Ask user for a word
 user_word = input("Enter a word: ").lower()
-
-# Sort the user word
 sorted_user_word = sorted(user_word)
 
 # Loop through word list
@@ -23,4 +21,8 @@ for word in word_list:
     anagrams.append(word)
 
 # Point all anagrams with a # of anagrams
-print()
+print("\nNumber of anagrams: ")
+for anagram word:
+  print(word)
+  
+print(f"\nTotal number of anagrams: {len(anagrams)}")
