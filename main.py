@@ -22,7 +22,7 @@ for word in word_list:
 
 # Point all anagrams with a # of anagrams
 print("\nNumber of anagrams: ")
-for anagram word:
+for anagram in word:
   print(word)
   
 print(f"\nTotal number of anagrams: {len(anagrams)}")
