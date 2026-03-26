@@ -19,9 +19,9 @@ def find_anagrams (name, word_list):
         test = ''
         wlm = Counter(word.lower())
         for letter in word:
-            if wlm [letter] < nlm[letter]:
+            if wlm [letter] <= nlm[letter]:
                 test += letter
-            if Counter (test) == wlm:
+            if Counter(test) == wlm:
                 anagrams.append(word)
 
     print(*anagrams, sep = "\n")
