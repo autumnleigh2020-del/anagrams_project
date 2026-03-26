@@ -49,8 +49,8 @@ def process_choice (name):
             break
         else:
             print("Wrong! Make another choice!", file=sys.stderr)
-        name = ''.join(left_over_list) # makes display more readable
-        return choice, name
+    name = ''.join(left_over_list) # makes display more readable
+    return choice, name
 
 
 def main():
